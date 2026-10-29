@@ -1,0 +1,15 @@
+{
+  "dataset": "Six original parallel-language toy passages",
+  "mode": "search",
+  "seed": 42,
+  "split": "18 synthetic near-text queries; no held-out corpus",
+  "features": [
+    "character_ngram_tfidf"
+  ],
+  "models": {
+    "TF-IDF character ngrams": {
+      "recall_at_3": 1
+    }
+  },
+  "note": "This is character TF-IDF over six toy passages, not neural embeddings or an LLM. A near-identical query benchmark is unusually easy."
+}
